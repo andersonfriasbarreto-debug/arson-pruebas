@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08090c">
+<meta name="description" content="ARSON — descubre productos con diseño, utilidad y personalidad.">
+<title>ARSON — Eleva tu estándar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">ARSON SELECT · DESCUBRE ALGO DIFERENTE</div>
+<header class="header">
+  <a class="brand" href="#inicio" aria-label="ARSON inicio"><img class="brand-logo" src="assets/arson-wordmark.png" alt="ARSON — Tu mundo, sin límites"></a>
+  <nav class="nav" id="nav"><a href="#tienda">Tienda</a><a href="#concepto">Nuestra esencia</a><a href="#faq">Preguntas</a></nav>
+  <button class="bag" id="openCart">Carrito <span id="cartCount">0</span></button>
+  <button class="menu" id="menuBtn" aria-label="Abrir menú">☰</button>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-copy"><p class="eyebrow"><i></i> SELECCIÓN ARSON / 001</p><h1>Eleva tu<br><em>estándar.</em></h1>
+  <p class="lead">Encuentra productos útiles, actuales y con carácter. Explora nuevas ideas para tu día a día, desde un solo lugar.</p>
+  <div class="hero-buttons"><a class="btn light" href="#tienda">Explorar productos <span>↗</span></a><a class="underlink" href="#concepto">Conoce ARSON</a></div>
+  <p class="micro"><span class="pulse"></span> Catálogo inicial · Atención directa</p></div>
+  <div class="hero-visual carousel" id="heroCarousel" aria-label="Galería de imágenes ARSON">
+    <div class="carousel-frame">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide is-active"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 1" fetchpriority="high"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 2" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 3" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 4" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 5" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 6" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 7" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 8" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 9" loading="lazy"></div>
+        <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85" alt="Imagen destacada 10" loading="lazy"></div>
+      </div>
+      <button class="carousel-arrow carousel-prev" id="carouselPrev" type="button" aria-label="Imagen anterior">‹</button>
+      <button class="carousel-arrow carousel-next" id="carouselNext" type="button" aria-label="Imagen siguiente">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots" aria-label="Elegir imagen">
+      <button class="carousel-dot is-active" type="button" aria-label="Ver imagen 1" aria-current="true"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 2"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 3"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 4"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 5"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 6"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 7"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 8"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 9"></button>
+      <button class="carousel-dot" type="button" aria-label="Ver imagen 10"></button>
+    </div>
+  </div>
+</section>
+<div class="ticker"><div>DISEÑO CON INTENCIÓN <b>✳</b> COMPRA INTELIGENTE <b>✳</b> ESTILO QUE SE SIENTE <b>✳</b> DISEÑO CON INTENCIÓN <b>✳</b></div></div>
+<section class="section shop" id="tienda">
+ <div class="section-title"><div><p class="eyebrow">EL CATÁLOGO</p><h2>Tu próximo<br><em>favorito.</em></h2></div><p>Una selección de productos para inspirarte. Consulta la disponibilidad antes de confirmar tu compra.</p></div>
+ <button class="filters-toggle" id="filtersToggle" type="button" aria-controls="filterArea" aria-expanded="false"><span>☷ &nbsp; Filtrar productos</span><span class="filters-toggle-state" id="filtersToggleState">Todo &nbsp;⌄</span></button>
+ <div id="filterArea" class="filter-area">
+ <div class="filters main-filters" id="mainFilters">
+  <button class="filter active" data-filter="todos">Todo</button>
+  <button class="filter" data-filter="tecnologia">Tecnología</button>
+  <button class="filter" data-filter="accesorios">Accesorios</button>
+  <button class="filter" data-filter="prendas">Prendas</button>
+  <button class="filter" data-filter="zapatillas">Zapatillas</button>
+  <button class="filter" data-filter="hogar">Hogar & estilo</button>
+ </div>
+ <div class="catalog-layout">
+  <aside class="subcategory-panel" aria-label="Filtrar por subcategoría">
+   <p class="subcategory-heading" id="subcategoryHeading">Explorar categorías</p>
+   <div class="subcategory-list" id="subcategoryFilters"></div>
+  </aside>
+  <div class="catalog-results">
+   <p class="results-label" id="resultsLabel">Todos los productos</p>
+   <div class="grid" id="products"></div>
+  </div>
+ </div>
+ </div><!-- /filterArea -->
+ <p class="notice">Catálogo de demostración: reemplaza productos, fotos, precios y stock con información real de tus proveedores antes de publicar.</p>
+</section>
+<section class="concept" id="concepto"><div class="big-a"><img src="assets/arson-emblem-a.png" alt="Emblema original A de ARSON"></div><div><p class="eyebrow">LA ESENCIA ARSON</p><h2>No es solo comprar.<br><em>Es elegir mejor.</em></h2><p>ARSON conecta productos con diseño y utilidad con personas que valoran cada elección. Queremos que descubrir y pedir sea simple, claro y directo.</p><a href="#tienda" class="underlink">Descubre el catálogo ↗</a></div></section>
+<section class="perks"><article><span>✳</span><h3>Selección con criterio</h3><p>Productos elegidos por su diseño y utilidad.</p></article><article><span>↗</span><h3>Pedido sencillo</h3><p>Consulta precios, stock y entrega antes de comprar.</p></article><article><span>⌁</span><h3>Atención directa</h3><p>Resuelve tus dudas antes de confirmar el pedido.</p></article></section>
+<section class="section faq" id="faq"><div><p class="eyebrow">INFORMACIÓN CLARA</p><h2>Antes de<br><em>comprar.</em></h2></div><div class="faq-list">
+<details><summary>¿Cómo compro un producto?<b>+</b></summary><p>Añade productos a la bolsa y pulsa “Consultar por WhatsApp”. Confirmaremos stock, precio final, costo de envío y plazo estimado antes de aceptar el pedido.</p></details>
+<details><summary>¿Puedo pagar directamente aquí?<b>+</b></summary><p>Esta versión no cobra online. El pedido se consulta por WhatsApp; no pagues hasta confirmar los datos del vendedor, disponibilidad, entrega y condiciones.</p></details>
+</div></section>
+<section class="contact"><div><p class="eyebrow">ARSON / UPDATES</p><h2>Lo nuevo empieza <em>aquí.</em></h2><p>Déjanos tu correo para recibir novedades cuando conectes un servicio de suscripción.</p></div><form id="emailForm"><label class="sr-only" for="email">Correo electrónico</label><input type="email" id="email" placeholder="Tu correo electrónico" required><button class="btn light" type="submit">Avisarme ↗</button><small id="emailNote">Formulario demostrativo: no almacena correos.</small></form></section>
+</main>
+<footer class="footer"><a class="brand" href="#inicio" aria-label="ARSON inicio"><img class="brand-logo" src="assets/arson-wordmark.png" alt="ARSON"></a><p>Diseñado para elegir mejor.</p><div class="footlinks"><a href="#faq">Ayuda</a><a href="#tienda">Tienda</a><a href="FOTOGRAFIAS_Y_LICENCIAS.html">Créditos de fotos</a><span>© <span id="year"></span> ARSON</span></div></footer>
+<div class="drawer" id="drawer" aria-hidden="true"><div class="shade" id="shade"></div><aside class="drawer-panel"><div class="drawer-head"><h3>Tu carrito <small id="drawerCount">(0)</small></h3><button id="closeCart" aria-label="Cerrar">×</button></div><div class="cart-list" id="cartList"></div><div class="drawer-bottom"><div class="total"><span>Total referencial</span><strong id="total">S/ 0.00</strong></div><button class="btn light wide" id="orderBtn">Consultar por WhatsApp ↗</button><p>Precio y envío sujetos a confirmación. No se realiza ningún cobro en esta página.</p></div></aside></div>
+<div class="product-modal" id="productModal" aria-hidden="true">
+ <div class="product-modal-shade" data-close-detail></div>
+ <section class="product-modal-panel" role="dialog" aria-modal="true" aria-label="Detalle del producto" tabindex="-1">
+  <button type="button" class="product-modal-close" data-close-detail aria-label="Cerrar detalle">×</button>
+  <div id="detailContent"></div>
+ </section>
+</div>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<script src="iphone-catalog.js"></script>
+<script src="phone-media.js"></script>
+<script src="script.js"></script>
+</body></html>

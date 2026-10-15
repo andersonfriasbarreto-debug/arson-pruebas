@@ -1,0 +1,20 @@
+ARSON 2031 · PREVIA DE FICHA iPHONE 11 MORADO
+
+Versión de prueba sobre ARSON 2030. No borres tu versión actual hasta revisar.
+
+CONTENIDO
+- Tienda completa ARSON, con los filtros, categorías, carrito y WhatsApp que ya tenía.
+- Ficha de iPhone 11 al tocar el producto, rediseñada siguiendo la maqueta aprobada: imagen grande, miniaturas de Delantero / Trasero / 360°, colores, GB y cantidad.
+- Color morado preseleccionado para mostrar la vista previa aprobada.
+- Modelo 3D morado de prueba incorporado localmente. Puedes girarlo con el dedo y mouse. El componente visor necesita internet para cargar su biblioteca.
+- Delantero y trasero recortados del montaje visual que compartiste; NO son fotografía oficial verificada ni pruebas de inventario.
+- Otros colores y modelos mantienen sus materiales anteriores; sus 360° continúan pendientes de material real/modelado.
+- NO se añadieron precios de venta ni reseñas ficticias.
+
+CÓMO PROBAR
+1. Descomprime este ZIP.
+2. Sube la carpeta ARSON_2031_PREVIA a un sitio de prueba en Cloudflare Pages o Netlify (también puedes reemplazar temporalmente tu deploy si prefieres).
+3. Abre VISTA_PREVIA.html dentro de ese despliegue para entrar directamente a la ficha del iPhone 11. También puedes ir a Tecnología > Celulares > iPhone 11.
+4. Revisa Delantero, Trasero y 360°. No hay autoavance.
+
+La ficha está disponible sin cobrar ni tramitar un pedido; el carrito mantiene la consulta por WhatsApp.

@@ -1,0 +1,1 @@
+iPhone 11: seis vistas combinadas y seis recortes frontales elaborados a partir del archivo de referencia suministrado por el usuario. Son composiciones digitales de referencia, no fotografías oficiales Apple ni de stock. No contienen lateral o 360°. Mantener los nombres de archivo y rutas del manifiesto phone-media.js.
