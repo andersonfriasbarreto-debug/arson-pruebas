@@ -1,0 +1,15 @@
+ARSON 2032 — iPhone 11 con seis colores y tres fotografías por acabado
+
+BASE: ARSON_2031_PREVIA_FICHA_IPHONE11.zip.
+
+Cambios:
+- iPhone 11: Blanco, Negro, Verde, Amarillo, Morado y Rojo.
+- En todos: 1 frontal, 2 trasera, 3 ambas juntas. Flechas o deslizar en el móvil; sin avance automático en ficha.
+- Imagen principal sin cuadro interior (assets WebP con transparencia).
+- Eliminado el modelo/visor 3D y la cuarta opción.
+- Filtros, carrito, WhatsApp, resto de catálogo y carrusel de portada mantenidos.
+- Las fotografías del iPhone 11 son ilustraciones de referencia facilitadas por el usuario; las traseras de los cinco acabados distintos del morado se adaptaron cromáticamente desde su referencia morada. No son fotografías oficiales ni acreditan stock.
+- Los precios de los iPhone están a cotización salvo referencias expresamente indicadas, no son precios de venta confirmados.
+
+PUBLICACIÓN: descomprime el ZIP y sube el contenido de la carpeta ARSON_2032, con index.html en la raíz del sitio.
+En GitHub Pages, para vista previa, abre VISTA_PREVIA.html (redirige al detalle de iPhone 11).
